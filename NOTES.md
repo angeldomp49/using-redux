@@ -1,0 +1,1 @@
+ The props of Home component is not merged to the Store, then we need to know why
