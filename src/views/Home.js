@@ -1,7 +1,7 @@
 import {connect} from 'react-redux';
 import {fetchNewTime} from '../redux/actionCreators';
 
-export const Home = ( props ) => {
+const Content = ( props ) => {
     return(
         <div>
             <h1>Welcome</h1>
@@ -23,6 +23,8 @@ const mapDispatchToProps = ( dispatch ) => ({
     }
 });
 
+export const Home =  connect(mapStateToProps, mapDispatchToProps)(Content);
 
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+
+export default Home;
