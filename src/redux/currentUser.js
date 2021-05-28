@@ -16,7 +16,7 @@ export const reducer = ( state = initialState, action ) => {
 
         case types.LOGOUT:
             return {
-                ...state, 
+                ...state,
                 user: {}, 
                 loggedIn: false
             };
