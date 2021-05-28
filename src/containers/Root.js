@@ -7,7 +7,6 @@ export const Root = (props) => {
     const store = configureStore();
     return(
         <Provider store={store}>
-            <App/>
             <Home />
         </Provider>
     );
