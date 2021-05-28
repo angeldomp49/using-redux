@@ -1,0 +1,5 @@
+# CROSS ORIGIN HEADER
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "https://example.com"
+</IfModule>
+# END CROSS ORIGIN HEADER
