@@ -1,1 +1,1 @@
-All ok, the Home component show the current date time
+Login/logout button works
