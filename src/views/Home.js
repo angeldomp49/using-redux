@@ -33,6 +33,4 @@ const mapDispatchToProps = ( dispatch ) => ({
 
 export const Home =  connect(mapStateToProps, mapDispatchToProps)(Content);
 
-
-
 export default Home;

@@ -18,3 +18,8 @@ export const login = (user) => ({
 export const logout = () => ({
         type: types.LOGOUT
     });
+
+export const printName = (name = {}) => ({
+        type: types.LABEL,
+        payload: name
+    });
